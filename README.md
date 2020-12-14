@@ -21,3 +21,9 @@ A single video was taken from youtube, cropped to a 250px250px video, from which
 ### Prerequisites
 * Python (version >= 3.5)
 * PyTorch (version 1.6.0)
+
+### Results
+<p align="center">
+  <img width="450" height="450" src=rain_short.gif>
+</p>
+
