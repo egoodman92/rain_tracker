@@ -23,8 +23,12 @@ A single video was taken from youtube, cropped to a 250px250px video, from which
 * PyTorch (version 1.6.0)
 
 ### Results
+
+Left: gif of detection and tracking algorithm applied to rain on water
+Right: analysis of droplets per second from tracking algorithm
+
 <p align="center">
   <img width="200" height="200" src=rain_short.gif>
-  <img width="286" height="200" src=forcast.jpg>
+  <img width="286" height="210" src=forcast.jpg>
 </p>
 
