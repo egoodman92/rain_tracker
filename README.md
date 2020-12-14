@@ -1,5 +1,5 @@
 # Rain Tracking
-This repo contains details about training a detection algorithm for rain droplets, which feeds into a SORT tracking algorithm to count to number of rain droplets over time. The detection portion uses Retinanet with Resnet18, although there are remaining artifacts from a multitask model (actions), and inference is relatively slow because of that too.
+This repo contains details about training a detection algorithm for rain droplets, which feeds into a SORT tracking algorithm to count to number of rain droplets over time. The detection portion uses Retinanet with Resnet18, although there are remaining artifacts from a multitask model (actions), and inference is relatively slow because of that too. The best model achieved a mAP_train = 85.3, mAP_test = 82.1, and these numbers are robust to the few optimization changes tested.
 
 ### Directory Setup
 
