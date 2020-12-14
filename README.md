@@ -25,5 +25,6 @@ A single video was taken from youtube, cropped to a 250px250px video, from which
 ### Results
 <p align="center">
   <img width="200" height="200" src=rain_short.gif>
+  <img width="200" height="200" src=forcast.jpg>
 </p>
 
