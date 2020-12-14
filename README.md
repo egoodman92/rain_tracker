@@ -1,5 +1,5 @@
 # Rain Tracking
-This repo contains details about training a detection algorithm for rain droplets, which feeds into a SORT tracking algorithm to count to number of rain droplets over time.
+This repo contains details about training a detection algorithm for rain droplets, which feeds into a SORT tracking algorithm to count to number of rain droplets over time. The detection portion uses Retinanet with Resnet18, although there are remaining artifacts from a multitask model (actions), and inference is relatively slow because of that too.
 
 ### Directory Setup
 
@@ -15,3 +15,7 @@ The following is the directory setup for using colab notebook:
 ├── smooth_filter_utils (can use to further smooth/filter detections before tracking)
 ├── videos
 ```
+
+### Prerequisites
+* Python (version >= 3.5)
+* PyTorch (version 1.6.0)
